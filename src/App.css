@@ -9,7 +9,7 @@
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+    animation: App-logo-spin infinite 10s linear;
   }
 }
 
@@ -35,4 +35,13 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.card-container {
+  margin: 0;
+  width: 100%;
+  padding: 20px 70px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
